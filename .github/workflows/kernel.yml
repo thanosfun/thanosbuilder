@@ -1,11 +1,11 @@
-name: Kernel Builder
+name: ThanOs Builder
 
 on:
   workflow_dispatch:
 
 jobs:
   build:
-    name: Kernel Builder
+    name: ThanOs Builder
     runs-on: ubuntu-latest
     env:
       CCACHE_COMPILERCHECK: "%compiler% -dumpmachine; %compiler% -dumpversion"
